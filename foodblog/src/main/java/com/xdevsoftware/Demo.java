@@ -1,4 +1,4 @@
-package xdevsoftware;
+package com.xdevsoftware;
 
 public class Demo
 {

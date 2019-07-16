@@ -24,3 +24,6 @@ hs_err_pid*
 
 
 */target/**
+foodblog/.classpath
+foodblog/.project
+foodblog/.settings/**
