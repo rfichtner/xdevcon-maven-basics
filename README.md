@@ -13,6 +13,13 @@ This project contains the source / material related to my *maven basics and best
 ### check for dependecy updates
     mvn versions:display-dependency-updates
 	
+### check for used / unused dependencies
+	mvn dependency:analyze
+	
 ### license report 
     mvn project-info-reports:dependencies
     mvn license:third-party-report
+
+### security check
+	mvn org.owasp:dependency-check-maven:check
+	
